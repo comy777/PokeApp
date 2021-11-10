@@ -1,0 +1,9 @@
+import React from 'react';
+import 'react-native-gesture-handler';
+import AppRoutes from './src/routes/AppRoutes';
+
+const App = () => {
+  return <AppRoutes />;
+};
+
+export default App;
